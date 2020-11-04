@@ -1,11 +1,13 @@
+# WordRat by Yuval Moravchick (c) - use this at your own risk
 import string
 import xml.etree.ElementTree as ET
 import requests
 from urllib3.exceptions import InsecureRequestWarning
 
-IP = "" #CHANGME
+IP = "" #CHANGEME
 
 url = f"https://{IP}:8443/register/enroll.ajax"
+# SET YOUR COOKIE HERE
 cookie = {'JSESSIONID':'857CF117481685137A8D75BD122C1296'}
 # proxy = {"https":"https://127.0.0.1:8080"}
 user_list = []
