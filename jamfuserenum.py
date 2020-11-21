@@ -1,4 +1,4 @@
-# WordRat by Yuval Moravchick (c) - use this at your own risk
+# by Yuval Moravchick (c) - use this at your own risk
 import string
 import xml.etree.ElementTree as ET
 import requests
